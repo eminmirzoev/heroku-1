@@ -4,6 +4,7 @@
   "description": "test heroku",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/eminmirzoev/heroku-1/issues"
   },
-  "homepage": "https://github.com/eminmirzoev/heroku-1#readme"
+  "homepage": "https://github.com/eminmirzoev/heroku-1#readme",
+  "dependencies": {
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "express": "4.17.1",
+    "babel-loader": "8.0.6",
+    "@babel/core": "7.7.4",
+    "@babel/plugin-proposal-class-properties": "7.7.4",
+    "@babel/preset-env": "7.7.4"
+  }
 }
